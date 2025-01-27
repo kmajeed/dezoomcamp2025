@@ -25,7 +25,8 @@ What's the version of `pip` in the image?
 - 23.3.1
 - 23.2.1
 
-Running the docker and checking the pip version from bash I got the following answer
+
+Running the Dockerfile in folder 01-docker-terraform/Dockerfile and checking the pip version from bash I got the following answer
 
 ```python
 pip 24.3.1 from /usr/local/lib/python3.12/site-packages/pip (python 3.12)
