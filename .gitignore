@@ -35,3 +35,5 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+01-docker-terraform/green_tripdata_2019-10.csv.gz
+01-docker-terraform/green_tripdata_2019-10.csv
