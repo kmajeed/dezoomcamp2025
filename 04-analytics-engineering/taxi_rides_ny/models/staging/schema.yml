@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: staging
+    database: "{{ env_var('DBT_DATABASE', 'dezoomcamp-dbt') }}"
+    schema:   "{{ env_var('DBT_SCHEMA', 'kmajeeddev_taxi_dataset') }}"
+    tables:
+      - name: ext_green_taxi
+      - name: ext_yellow_taxi
