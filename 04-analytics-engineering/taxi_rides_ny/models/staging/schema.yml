@@ -7,3 +7,4 @@ sources:
     tables:
       - name: ext_green_taxi
       - name: ext_yellow_taxi
+      - name: ext_fhv_taxi
